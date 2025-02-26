@@ -1,3 +1,4 @@
+import './estilo.css';
 import logo from '../../imagens/logo-catbooks.png';
 
 function Logo(){

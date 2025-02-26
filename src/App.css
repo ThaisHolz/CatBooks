@@ -1,3 +1,15 @@
-.logo{
-  display: flex;
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#E3D0D8, #827081);
 }
+
+li{
+  list-style: none;
+}
+
+/*Cores extras
+Rosa #AEA3B0
+Verde #657153
+Azul #17183B
+*/
