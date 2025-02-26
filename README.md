@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 Projeto de estudo inicial de React com Alura.
-<a href="xxxx">Clique para ver o projeto.</a>
+<a href="https://github.com/ThaisHolz/CatBooks">Clique para ver o projeto.</a>
 
 **Thais Coelho**
 
