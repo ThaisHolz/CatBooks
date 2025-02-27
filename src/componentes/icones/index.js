@@ -1,16 +1,24 @@
-import './index.css';
 import perfil from '../../imagens/perfil.svg';
 import sacola from '../../imagens/sacola.svg';
+import styled from 'styled-components';
 
-const icones = [perfil, sacola];
+const Icone = styled.li`
+    margin-left:80px;
+    width: 0px;
+`
+const Icones = styled.ul`
+    display: flex;
+    align-items: center;
+`
+const icones = [perfil, sacola]; 
 
 function IconeMenu(){
     return(
-        <ul className='icones'>
+        <Icones>
           {icones.map((icone) => (
-            <li className='icone'><img src={icone}></img></li>
+            <Icone><img src={icone}></img></Icone>
           ))}
-        </ul>
+        </Icones>
     )
 }
 

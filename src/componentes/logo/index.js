@@ -1,12 +1,17 @@
-import './estilo.css';
 import logo from '../../imagens/logo-catbooks.png';
+import styled from 'styled-components';
+
+const LogoContainer = styled.div`
+    display: flex;
+    font-size: 30px;
+`
 
 function Logo(){
     return(
-        <div className='logo'>
+        <LogoContainer>
             <img src={logo} alt='logo'></img>
             <p>CatBooks</p>
-       </div>
+       </LogoContainer>
     )
 }
 
