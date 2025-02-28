@@ -1,4 +1,5 @@
 import Header from './componentes/header/header.js';
+import Pesquisa from './componentes/pesquisa/pesquisa.js';
 import styled from 'styled-components';
 
  /* Substituição do css */ 
@@ -12,6 +13,7 @@ function App() {
   return (
     <AppContainer>
       <Header />
+      <Pesquisa />
     </AppContainer>
   );
 }
