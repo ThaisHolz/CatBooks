@@ -1,4 +1,7 @@
 import { livros } from "./dadosLancamentos";
+import { Titulo } from "../titulo/titulo.js";
+import CardRecomenda from "../cardRecomenda/cardRecomenda.js";
+import imgCard from "../../imagens/livro3.png"
 import styled from "styled-components";
 
 const LancamentosContainer = styled.section`
@@ -9,16 +12,8 @@ const LancamentosContainer = styled.section`
     flex-direction: column;
     align-items: center;
 `
-const Titulo = styled.h2`
-    width: 100%;
-    padding: 20px 0;
-    color: black;
-    font-size: 26px;
-    text-align: center;
-    margin: 0;
-`
 const NovosLivrosContainer = styled.div`
-    margin-top: 15px;
+    margin: 25px;
     display: flex;
     width: 100%;
     max-height: 250px;
@@ -28,13 +23,20 @@ const NovosLivrosContainer = styled.div`
 
 function UltimosLancamentos(){
     return(
+        ///Cor do titulo pode ser alterar devido ao componente titulo.js permitir
         <LancamentosContainer>
-            <Titulo>ÚTIMOS LANÇAMENTOS</Titulo>
+            <Titulo cor='red' >ÚTIMOS LANÇAMENTOS</Titulo> 
             <NovosLivrosContainer>
                 {livros.map(livro => (
                     <img src={livro.src}/>
                 ))}
             </NovosLivrosContainer>
+            <CardRecomenda 
+                titulo='Talvez você goste...'
+                subtitulo='The Hobbit'
+                descricao='Uma jornada pela Terra Média'
+                imagem={imgCard}
+            />
         </LancamentosContainer>
     )
 }
