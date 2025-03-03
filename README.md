@@ -1,8 +1,5 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
 Projeto de estudo inicial de React com Alura.
 <a href="https://thaisholz.github.io/CatBooks/">Clique para ver o projeto.</a>
 
