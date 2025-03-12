@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 Projeto de estudo inicial de React com Alura.
-<a href="https://thaisholz.github.io/CatBooks/">Clique para ver o projeto.</a>
+<a href="https://vercel.com/thais-coelhos-projects/organo-vtsx">Clique para ver o projeto.</a>
 
 **Thais Coelho**
 
